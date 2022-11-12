@@ -84,6 +84,9 @@
 
       <!-- Code injected by live-server -->
       <script>
+		fetch('https://play.amongus.lt:22000/api/custom/players')
+		.then((response) => response.json())
+		.then((data) => console.log(data));
 		console.log('todo')
       </script>
    </body>
